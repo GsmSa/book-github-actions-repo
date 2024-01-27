@@ -3,7 +3,14 @@ on:
   workflow_dispatch:
     inputs:
       env_param:
+        type: choice
         description: 'Environment to deploy'
+        options:
+        - Production
+        - Test 1
+        - Test 2
+        - Development 1
+        - Development 2        
         required: true
       change_id:
         description: 'Change Reference'
