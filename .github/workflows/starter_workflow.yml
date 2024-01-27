@@ -1,4 +1,4 @@
-name: Workflow with parameters
+run-name: Workflow with parameters ${{inputs.env_param}} and ${{inputs.change_id}}
 on:
   workflow_dispatch:
     inputs:
