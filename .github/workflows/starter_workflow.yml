@@ -1,4 +1,4 @@
-run-name: Workflow with parameters ${{inputs.env_param}} and ${{inputs.change_id}} by ${{github.actor}}
+run-name: Workflow with parameters ${{inputs.env_param}} and ${{inputs.change_id}} by ${{github.actor}} to ${{github.api_url}}
 on:
   workflow_dispatch:
     inputs:
